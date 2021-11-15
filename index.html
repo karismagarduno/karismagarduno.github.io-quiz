@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+   
+    <form name="quiz" id="quiz">
+    <div class="container">
+        <h1>Harry Potter Quiz?</h1>
+        <div class="questions">
+        <label class="lbl" name="q1"> 1. What house was Dumbledore from? </label><br><br>
+        
+       <p><input type="radio"  name="q1"  value="A">Gryffindor<br></p> 
+       <p><input type="radio"   name="q1"  value="B">Ravenclaw<br></p> 
+        <p><input type="radio"  name="q1"  value="C">Hufflepuff<br></p>
+        <p><input type="radio" name="q1"   value="D">Slytherin<br></p>
+       <br>
+       
+    </div>
+      
+    <div class="questions">
+            <label class="lbl" name="q2"> 2. In what book do Ron and Harry steal Rons Dad's car?</label><br><br>
+              
+        <p><input type="radio" name="q2"  value="A">Book 1<br></p>
+        <p> <input type="radio" name="q2"  value="B">Book 2<br> </p>
+       <p><input type="radio" name="q2"  value="C">Book 3<br></p> 
+       <p><input type="radio" name="q2"  value="D">Book 4<br></p> 
+    </div>
+   
+    <div class="questions">
+        <label class="lbl" name="q3"> 3. In what book does Cedric die?</label><br><br>
+        
+       <p><input type="radio" name="q3"  value="A">Book 7<br></p> 
+        <p><input type="radio" name="q3"  value="B">Book 5<br> </p>
+       <p><input type="radio" name="q3"  value="C">Book 6<br></p>
+       <p><input type="radio" name="q3"  value="D">Book 8<br></p>
+       </div>
+
+       <div class="questions">
+        <label class="lbl" name="q4"> 4. Which Weasley twin dies by the death hallows?</label><br><br>
+        
+       <p><input type="radio" name="q4"  value="A"> Fred Weasley<br></p> 
+        <p><input type="radio" name="q4"  value="B"> George Weasley<br> </p>
+       </div>
+        
+
+       <div class="questions">
+        <label class="lbl" name="q5"> 5. What does Harry Potter give Dobby to set him free?</label><br><br>
+        
+       <p><input type="radio" name="q5"  value="A"> A Wand <br></p> 
+        <p><input type="radio" name="q5"  value="B"> A Sock<br></p>
+       <p><input type="radio" name="q5"  value="C"> A Shirt <br></p>
+        <p><input type="radio" name="q5"  value="D"> A Train Ticket <br></p>
+       </div>
+        
+
+
+        
+       <input type="button" class="btn" value="Submit" onclick="check()">
+       <p id="result"> </p>
+
+        
+         
+    </div>
+    
+       
+       
+    
+
+       
+  
+    
+</form>
+
+
+</body>
+</html>
